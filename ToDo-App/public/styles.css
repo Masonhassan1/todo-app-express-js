@@ -1,0 +1,79 @@
+#bar{
+    height: auto;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+  }
+  
+  #main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    height: 70%;
+  }
+  
+  
+  #list{
+    color: hsl(0deg 0% 20%);
+    background-color: hsl(0deg 0% 94%);
+    width: 50%;
+    box-shadow: 4px 0px 3px -3px rgba(36, 36, 36, 0.7); 
+    padding: 10px;
+  }
+  
+  #addTodo{
+    width: 50%;
+    background-color: whitesmoke;
+    margin-left: 3px;
+    padding: 10px;
+  }
+  
+  textarea {
+    background: transparent;
+    color: hsl(0deg 0% 46%);
+    resize: none;
+    border: 0 none;
+    width: 100%;
+    font-size: 3em;
+    outline: none;
+    height: 100%;
+    
+  }
+  
+  .noteStyle{
+    margin-top: 10px;
+    border-bottom: 2px solid grey;
+    padding: 3px;
+    }
+  
+  .button{
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    border-radius: 5px;
+  }
+  
+  #main-home{
+  
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #login{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(175, 175, 175);
+    margin-bottom: 30px;
+  }
