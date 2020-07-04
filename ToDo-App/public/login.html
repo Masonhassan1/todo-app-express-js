@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white align-items-center" href="#">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Microsoft_To-Do_icon.png/1103px-Microsoft_To-Do_icon.png"
+            alt="Logo"
+            width="5%"
+            class="d-inline-block align-text-middle mx-3"
+          />
+          To Do App
+        </a>
+      </div>
+    </nav>
+
+    <div class="main-home">
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">Login</h5>
+          <form action="/login" method="post">
+            <div class="mb-3">
+              <label for="username" class="form-label">Username</label>
+              <input type="text" class="form-control" name="username" /><br />
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                name="password"
+              /><br />
+            </div>
+            <button type="submit" class="btn btn-primary">LOGIN</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="signup-btn">
+        <a href="/signup">
+          <button class="btn btn-primary my-4">SIGNUP</button>
+        </a>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
